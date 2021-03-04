@@ -1,0 +1,22 @@
+package com.company;
+
+
+import junit.framework.TestCase;
+import org.junit.Test;
+import static junit.framework.TestCase.assertEquals;
+
+public class CarTest {
+
+@Test
+        public void test_car() {
+    /*
+    Car c1 = new Car(5, "skoda", 5);
+    assertEquals(TestData.expected_result_passangers_car,c1.getmaxnumofpassangers());
+    assertEquals(TestData.expected_result_getmaxspeed_car,c1.getmaxspeed());
+    **/
+    Motorcycle mo=new Motorcycle(5,"sefsd,5",5);
+    assertEquals(TestData.expected_result_getmaxspeed_MOTO,mo.getmaxspeed());
+    assertEquals(TestData.expected_result_passangers_Moto,mo.getmaxnumofpassangers());
+}
+
+}
