@@ -1,0 +1,21 @@
+package com.company;
+
+
+public class Motorcycle extends Vehicle {
+
+    protected float m_hand_break_size;
+
+    public Motorcycle(int m_numberofwheels, String m_model, float m_hand_break_size) {
+        super(m_numberofwheels, m_model);
+        this.m_hand_break_size = m_hand_break_size;
+    }
+    public int getmaxnumofpassangers()
+    {
+        return 80;
+    }
+    public int getmaxspeed()
+    {
+        return 240;
+    }
+
+}
