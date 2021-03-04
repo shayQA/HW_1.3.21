@@ -1,0 +1,14 @@
+package com.company;
+
+public  abstract  class Vehicle {
+     protected int m_numberofwheels;
+     protected String m_model;
+
+    public Vehicle(int m_numberofwheels, String m_model) {
+        this.m_numberofwheels = m_numberofwheels;
+        this.m_model = m_model;
+    }
+    abstract int getmaxnumofpassangers();
+    abstract  int getmaxspeed();
+
+}
