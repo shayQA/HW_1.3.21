@@ -1,0 +1,19 @@
+package com.company;
+
+public class Car extends Vehicle {
+
+protected int m_number_of_doors;
+
+    public Car(int m_numberofwheels, String m_model, int m_number_of_doors) {
+        super(m_numberofwheels, m_model);
+        this.m_number_of_doors = m_number_of_doors;
+    }
+    public int getmaxnumofpassangers()
+    {
+           return 5;
+    }
+    public int getmaxspeed()
+    {
+        return 260;
+    }
+}
